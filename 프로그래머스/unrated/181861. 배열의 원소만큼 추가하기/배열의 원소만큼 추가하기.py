@@ -1,0 +1,1 @@
+solution = lambda arr: [num for num in arr for _ in range(num)]
