@@ -6,3 +6,7 @@ def solution(my_string, alp):
         else:
             result_string += char
     return result_string
+
+
+# def solution(my_string, alp):
+#    return my_string.replace(alp, alp.upper())
