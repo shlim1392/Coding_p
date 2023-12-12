@@ -8,4 +8,6 @@ def solution(arr, n):
         else:
             result.append(arr[i])
     return result
-    
+
+
+# [num + n*((len(arr)+i)%2) for i, num in enumerate(arr)]  
