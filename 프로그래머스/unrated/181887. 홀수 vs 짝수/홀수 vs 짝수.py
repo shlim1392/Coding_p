@@ -9,3 +9,6 @@ def solution(num_list):
             odd += x
             
     return odd if odd >= even else even
+
+def solution(num_list):
+    return max(sum(num_list[::2]), sum(num_list[1::2]))
